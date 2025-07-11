@@ -23,6 +23,11 @@ public class DetailManhua extends Manhua {
                "\nChapter Terakhir Dibaca: " + chapter;
     }
 
+     public String tampilkanInfo(String user) {
+        return "Data oleh " + user + "\n" + tampilkanInfo();
+    }
+}
+
    
 
 
