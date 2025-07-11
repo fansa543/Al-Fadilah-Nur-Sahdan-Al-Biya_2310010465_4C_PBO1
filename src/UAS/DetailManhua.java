@@ -13,6 +13,10 @@ public class DetailManhua extends Manhua {
     public String getStatusBaca() { return statusBaca; }
     public void setStatusBaca(String statusBaca) { this.statusBaca = statusBaca; }
 
+    public int getChapter() { return chapter; }
+    public void setChapter(int chapter) { this.chapter = chapter; }
+
+    
     
 
    
