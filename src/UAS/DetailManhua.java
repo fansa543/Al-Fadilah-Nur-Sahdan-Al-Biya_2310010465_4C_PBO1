@@ -16,6 +16,16 @@ public class DetailManhua extends Manhua {
     public int getChapter() { return chapter; }
     public void setChapter(int chapter) { this.chapter = chapter; }
 
+    @Override
+    public String tampilkanInfo() {
+        return super.tampilkanInfo() +
+               "\nStatus: " + statusBaca +
+               "\nChapter Terakhir Dibaca: " + chapter;
+    }
+
+   
+
+
     
     
 
