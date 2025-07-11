@@ -23,6 +23,15 @@ public class MainApp {
                 koleksi[i] = new DetailManhua(judul, penulis, genre, status, chapter);
             }
 
+            System.out.println("\n--- Data Manhua ---");
+            for (DetailManhua m : koleksi) {
+                System.out.println(m.tampilkanInfo("Al-Fadilah Nur Sahdan Al-Biya"));
+                System.out.println("----------------------");
+            }
+
+       
+
+
            
                
                 
