@@ -18,6 +18,11 @@ public class Manhua {
     public String getGenre() { return genre; }
     public void setGenre(String genre) { this.genre = genre; }
 
+     public String tampilkanInfo() {
+        return "Judul: " + judul + "\nPenulis: " + penulis + "\nGenre: " + genre;
+    }
+}
+
    
 
 
