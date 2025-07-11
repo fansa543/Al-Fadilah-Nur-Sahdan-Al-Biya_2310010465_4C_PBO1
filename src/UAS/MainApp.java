@@ -19,6 +19,11 @@ public class MainApp {
                 System.out.print("Chapter terakhir dibaca: ");
                 int chapter = Integer.parseInt(input.nextLine());
 
+                
+                koleksi[i] = new DetailManhua(judul, penulis, genre, status, chapter);
+            }
+
+           
                
                 
            
