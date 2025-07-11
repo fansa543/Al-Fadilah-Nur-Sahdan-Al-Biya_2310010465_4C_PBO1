@@ -24,6 +24,10 @@ public class MainApp {
                 System.out.print("Chapter terakhir dibaca: ");
                 int chapter = Integer.parseInt(input.nextLine());
 
+                if (chapter <= 0) {
+                    throw new IllegalArgumentException("Chapter harus lebih dari 0");
+                }
+
                 
                 koleksi[i] = new DetailManhua(judul, penulis, genre, status, chapter);
             }
