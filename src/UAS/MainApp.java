@@ -16,6 +16,11 @@ public class MainApp {
                 String genre = input.nextLine();
                 System.out.print("Status Baca (Ongoing/Completed): ");
                 String status = input.nextLine();
+
+                if (!status.equalsIgnoreCase("Ongoing") && !status.equalsIgnoreCase("Completed")) {
+                    throw new IllegalArgumentException("Status harus 'Ongoing' atau 'Completed'");
+                }
+                 
                 System.out.print("Chapter terakhir dibaca: ");
                 int chapter = Integer.parseInt(input.nextLine());
 
