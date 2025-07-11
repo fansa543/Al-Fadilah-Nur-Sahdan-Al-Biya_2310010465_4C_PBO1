@@ -29,6 +29,14 @@ public class MainApp {
                 System.out.println("----------------------");
             }
 
+        } catch (NumberFormatException e) {
+            System.out.println("Terjadi kesalahan input: " + e.getMessage());
+        }
+
+        input.close();
+    }
+}
+
        
 
 
