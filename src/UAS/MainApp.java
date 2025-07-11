@@ -7,6 +7,8 @@ public class MainApp {
         Scanner input = new Scanner(System.in);
         DetailManhua[] koleksi = new DetailManhua[2];
         try {
+             for (int i = 0; i < koleksi.length; i++) {
+                
            
         
 
